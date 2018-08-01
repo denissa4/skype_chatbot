@@ -36,7 +36,7 @@ def webhook():
         sender = data['conversation']['id']
         text = data['text']
 
-        send_message(bot_id, bot_name, recipient, service, sender, text)
+        bot.send_message(bot_id, bot_name, recipient, service, sender, text)
         
     except Exception as e:
       print(e)
