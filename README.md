@@ -54,11 +54,10 @@ if __name__ == '__main__':
 ### Install package
 
 Run in console:
-```pip install skype_chatbot```
-or
-download package from GitHub and copy folder `skype_chatbot` to `site-packages` (e.g. C:\Python36\Lib\site-packages\skype_chatbot)
+```pip install skype_chatbot``` 
+or download package from GitHub and copy folder `skype_chatbot` to `site-packages` (e.g. C:\Python36\Lib\site-packages\skype_chatbot)
 
-### Create main.py file
+### Create <main.py> file
 
 Import skype_chatbot package:
 ```
@@ -74,6 +73,7 @@ Create object bot:
 bot = skype_chatbot.SkypeBot(client_id, client_secret)
 
 #### Now you can use base methods:
+|                                 |
 | ------------------------------- |
 | send_message                    |
 | send_media                      |
