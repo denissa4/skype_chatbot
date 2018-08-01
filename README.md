@@ -54,7 +54,7 @@ if __name__ == '__main__':
 ### Install package
 
 Run in console:
-```pip install skype_chatbot``` 
+```pip install skype_chatbot```     
   or download package from GitHub and copy folder `skype_chatbot` to `site-packages` (e.g. **C:\Python36\Lib\site-packages\skype_chatbot**)
 
 ### Create <main.py> file
