@@ -80,7 +80,7 @@ Create object bot:
 | create_animation_card           |
 | create_card_attachment          |
 | create_card_image               |
-| create_buttons                  |
+| create_button                  |
 | send_card                       |
 | create_card_adaptive            |
 | create_item_for_adaptive_card   |
@@ -118,7 +118,7 @@ Create object bot:
   *title* - title for your card. Must be a string.     
   *subtitle* - subtitle for your card. Must be a string.     
   *text* - text for your card. Must be a string.     
-  *buttons* - list of buttons, in card attachment (to create button use method `create_buttons`). Must be a list.     
+  *buttons* - list of buttons, in card attachment (to create button use method `create_button`). Must be a list.     
   *autoloop* - default: True.     
   *autostart* - default: True.     
   *shareable* - default: True.     
@@ -131,7 +131,7 @@ Create object bot:
   *subtitle* - subtitle for your card. Must be a string.     
   *text* - text for your card. Must be a string.     
   *images* - list of images, in card attachment (to create image use method `create_card_image`). Must be a list.     
-  *buttons* - list of buttons, in card attachment (to create button use method `create_buttons`). Must be a list.     
+  *buttons* - list of buttons, in card attachment (to create button use method `create_button`). Must be a list.     
 
 ### Create image for card:
 `create_card_image(url, alt)`
