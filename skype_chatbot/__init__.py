@@ -30,7 +30,7 @@ class SkypeBot:
         self.t.start()
 
     @staticmethod
-    def send_message(bot_id, bot_name, recipient, service, sender, text, text_format):
+    def send_message(bot_id, bot_name, recipient, service, sender, text, text_format='markdown'):
         return send_message(token, bot_id, bot_name, recipient, service, sender, text, text_format)
 
     @staticmethod
@@ -56,7 +56,7 @@ class SkypeBot:
                                      autostart, shareable)
 
     @staticmethod
-    def send_media(bot_id, bot_name, recipient, service, sender, message_type, url, attachment_name):
+    def send_media(bot_id, bot_name, recipient, service, sender, message_type, url, attachment_name=None):
         return send_media(token, bot_id, bot_name, recipient, service, sender, message_type, url,
                           attachment_name)
 

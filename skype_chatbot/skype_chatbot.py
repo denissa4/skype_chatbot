@@ -1,7 +1,7 @@
 import requests
 
 
-def send_message(token, bot_id, bot_name, recipient, service, sender, text, text_format='markdown'):
+def send_message(token, bot_id, bot_name, recipient, service, sender, text, text_format):
     try:
 
         payload = {
@@ -119,7 +119,7 @@ def send_card(token, bot_id, bot_name, recipient, reply_to_id, service, sender, 
 
 
 def create_animation_card(card_type, url, images, title, subtitle, text, buttons,
-                          autoloop=True, autostart=True, shareable=True):
+                          autoloop, autostart, shareable):
 
     card_animation = {
         "contentType": "application/vnd.microsoft.card." + card_type,
